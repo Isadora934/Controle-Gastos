@@ -37,7 +37,7 @@ public class Titular {
 	}
 	
 	//Metodos extras
-	public boolean isSenhaValida() {
+	public boolean isSenhaValida(String senha) {
 		//Parametros para a senha ser valida:
 		boolean temNumero = false;
 		boolean temMaiuscula = false;
